@@ -7,9 +7,6 @@ package Dist::Zilla::Plugin::CheckChangesTests;
 # ABSTRACT: release tests for checking changes
 use Moose;
 
-# make Perl::PrereqScanner see it (for [AutoPrereq]), but don't load it as it
-# does things even while being loaded.
-require Test::CheckChanges if 0;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 __PACKAGE__->meta->make_immutable;
 no Moose;
