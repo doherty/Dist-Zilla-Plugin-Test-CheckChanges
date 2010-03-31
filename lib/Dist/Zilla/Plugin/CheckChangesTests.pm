@@ -3,8 +3,7 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::CheckChangesTests;
-
-# ABSTRACT: release tests for checking changes
+# ABSTRACT: Release tests for checking changes
 use Moose;
 
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -27,7 +26,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/check-changes.t - a standard Test::CheckChanges test
 
