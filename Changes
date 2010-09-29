@@ -1,6 +1,7 @@
 Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
+    - fixed POD
 
 1.100900  2010-03-31 11:53:07 Europe/Vienna
     - removed weaver.ini since that's handled in Dist::Zilla's [@MARCEL] now
