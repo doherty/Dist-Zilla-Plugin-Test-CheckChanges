@@ -1,1 +1,4 @@
 Dist-Zilla-Plugin-CheckChangesTests-*
+.build
+Dist-Zilla-Plugin-Test-CheckChanges*
+*.tar.gz

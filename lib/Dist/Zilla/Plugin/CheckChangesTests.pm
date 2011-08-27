@@ -3,43 +3,32 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::CheckChangesTests;
-# ABSTRACT: Release tests for checking changes
+# ABSTRACT: (DEPRECATED) Release tests for checking changes
+# VERSION
 use Moose;
+use version 0.77;
 
-extends 'Dist::Zilla::Plugin::InlineFiles';
+extends 'Dist::Zilla::Plugin::Test::CheckChanges';
+use namespace::autoclean;
+
+before register_component => sub {
+    warn '!!! [CheckChangesTests] is deprecated and will be removed in a future release; replace it with [Test::CheckChanges]';
+};
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
-
-=begin :prelude
 
 =for test_synopsis
 1;
 __END__
 
-=end :prelude
-
 =head1 SYNOPSIS
+
+B<< Please use L<Dist::Zilla::Plugin::Test::CheckChanges>. >>
 
 In C<dist.ini>:
 
-    [CheckChangesTests]
-
-=head1 DESCRIPTION
-
-This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following file:
-
-  xt/release/check-changes.t - a standard Test::CheckChanges test
+    [Test::CheckChanges]
 
 =cut
-__DATA__
-___[ xt/release/check-changes.t ]___
-#!perl
-
-use Test::More;
-
-eval "use Test::CheckChanges";
-plan skip_all => "Test::CheckChanges required for testing changes"
-  if $@;
-ok_changes();
