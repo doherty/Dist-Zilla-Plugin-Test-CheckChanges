@@ -20,7 +20,7 @@ __END__
 
 In C<dist.ini>:
 
-    [CheckChangesTests]
+    [Test::CheckChanges]
 
 =head1 DESCRIPTION
 
