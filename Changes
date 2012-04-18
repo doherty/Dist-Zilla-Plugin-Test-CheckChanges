@@ -1,6 +1,8 @@
 Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
+
+2.000001  2012-04-18
     - fixed POD more [Olivier Mengué]
 
 v2.0.0    2011-08-27
