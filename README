@@ -3,12 +3,12 @@ NAME
     changes
 
 VERSION
-    version v2.0.0
+    version 2.000001
 
 SYNOPSIS
     In "dist.ini":
 
-        [CheckChangesTests]
+        [Test::CheckChanges]
 
 DESCRIPTION
     This is an extension of Dist::Zilla::Plugin::InlineFiles, providing the
@@ -17,17 +17,13 @@ DESCRIPTION
       xt/release/check-changes.t - a standard Test::CheckChanges test
 
 AVAILABILITY
+    The project homepage is
+    <http://metacpan.org/release/Dist-Zilla-Plugin-Test-CheckChanges/>.
+
     The latest version of this module is available from the Comprehensive
     Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
     CPAN site near you, or see
-    <http://search.cpan.org/dist/Dist-Zilla-Plugin-Test-CheckChanges/>.
-
-    The development version lives at
-    <http://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges> and may
-    be cloned from
-    <git://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges.git>.
-    Instead of sending patches, please fork this project using the standard
-    git and github infrastructure.
+    <https://metacpan.org/module/Dist::Zilla::Plugin::Test::CheckChanges/>.
 
 SOURCE
     The development version is on github at
@@ -36,9 +32,8 @@ SOURCE
     <git://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges.git>
 
 BUGS AND LIMITATIONS
-    No bugs have been reported.
-
-    Please report any bugs or feature requests through the web interface at
+    You can make new bug reports, and view existing ones, through the web
+    interface at
     <https://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges/issues>.
 
 AUTHORS
