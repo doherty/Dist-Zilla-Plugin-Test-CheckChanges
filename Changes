@@ -1,6 +1,8 @@
 Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
+
+2.000002  2013-04-09
     - Check only for our deprecation warning in t/deprecated.t
 
 2.000001  2012-04-18

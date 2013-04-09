@@ -4,7 +4,7 @@ Dist::Zilla::Plugin::Test::CheckChanges - Release tests for checking changes
 
 # VERSION
 
-version 2.000001
+version 2.000002
 
 # SYNOPSIS
 
