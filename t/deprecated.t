@@ -29,8 +29,3 @@ ok(
     (grep { $_ eq 'xt/release/check-changes.t' } @xtests),
     'check-changes.t exists 2'
 ) or diag explain \@xtests;
-
-END { # Remove (empty) dir created by building the dists
-    require File::Path;
-    File::Path::rmtree('tmp');
-}
