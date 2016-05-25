@@ -32,7 +32,6 @@ my %WriteMakefileArgs = (
   },
   "TEST_REQUIRES" => {
     "Capture::Tiny" => 0,
-    "Moose::Autobox" => 0,
     "Test::DZil" => 0,
     "Test::More" => "0.96",
     "Test::Output" => 0,

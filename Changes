@@ -1,6 +1,7 @@
 Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
+  - Remove all uses of Moose::Autobox [ether, gh-3]
 
 2.000003  2013-08-03
   - Don't shoot ourselves in the foot in the tests [kentnl, GH #2]
