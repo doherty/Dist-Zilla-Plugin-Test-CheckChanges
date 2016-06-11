@@ -4,7 +4,7 @@ Dist::Zilla::Plugin::Test::CheckChanges - Release tests for checking changes
 
 # VERSION
 
-version 2.000003
+version 2.000004
 
 # SYNOPSIS
 
@@ -14,7 +14,7 @@ In `dist.ini`:
 
 # DESCRIPTION
 
-This is an extension of [Dist::Zilla::Plugin::InlineFiles](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::InlineFiles), providing the
+This is an extension of [Dist::Zilla::Plugin::InlineFiles](https://metacpan.org/pod/Dist::Zilla::Plugin::InlineFiles), providing the
 following file:
 
     xt/release/check-changes.t - a standard Test::CheckChanges test
